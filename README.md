@@ -11,7 +11,7 @@ This repository hosts the official legal documents for **PlumBot**, a Discord bo
 
 For any questions regarding PlumBot, its Terms of Service, or its Privacy Policy, you can contact us through the official support server:
 
-[**PlumBot Support Server**](https://discord.gg/3xypqxVPcQ)
+[**PlumBot Official Server**](https://discord.gg/3xypqxVPcQ)
 
 ---
 
