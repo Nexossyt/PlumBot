@@ -3,119 +3,329 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PlumBot - Terms of Service</title>
+    <meta name="description" content="PlumBot Terms of Service">
+    <title>Terms of Service • PlumBot</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+            background:
+                radial-gradient(circle at top, rgba(88, 101, 242, 0.14), transparent 35%),
+                #0d0e12;
+            color: #dbdee1;
+            line-height: 1.7;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: min(900px, calc(100% - 40px));
+            margin: 0 auto;
+        }
+
+        header {
+            padding: 70px 0 45px;
+            text-align: center;
+        }
+
+        .bot-name {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            color: #949cf7;
+            font-size: 15px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            margin-bottom: 18px;
+        }
+
+        .dot {
+            width: 9px;
+            height: 9px;
+            border-radius: 50%;
+            background: #23a55a;
+            box-shadow: 0 0 15px rgba(35, 165, 90, 0.7);
+        }
+
+        h1 {
+            color: #ffffff;
+            font-size: clamp(38px, 7vw, 58px);
+            line-height: 1.1;
+            margin-bottom: 18px;
+            letter-spacing: -2px;
+        }
+
+        .subtitle {
+            color: #949ba4;
+            max-width: 620px;
+            margin: auto;
+            font-size: 17px;
+        }
+
+        .updated {
+            display: inline-block;
+            margin-top: 22px;
+            padding: 7px 13px;
+            background: #1e1f22;
+            border: 1px solid #2b2d31;
+            border-radius: 20px;
+            color: #949ba4;
+            font-size: 13px;
+        }
+
+        main {
+            background: rgba(17, 18, 23, 0.88);
+            border: 1px solid #24262d;
+            border-radius: 18px;
+            padding: 45px;
+            margin-bottom: 35px;
+            box-shadow: 0 25px 70px rgba(0, 0, 0, 0.25);
+        }
+
+        section {
+            padding: 30px 0;
+            border-bottom: 1px solid #24262d;
+        }
+
+        section:first-child {
+            padding-top: 0;
+        }
+
+        section:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        h2 {
+            color: #ffffff;
+            font-size: 21px;
+            margin-bottom: 13px;
+        }
+
+        p {
+            color: #b5bac1;
+            margin-bottom: 12px;
+        }
+
+        ul {
+            margin: 14px 0 10px 22px;
+            color: #b5bac1;
+        }
+
+        li {
+            padding: 4px 0;
+        }
+
+        a {
+            color: #949cf7;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #b7bcff;
+            text-decoration: underline;
+        }
+
+        .contact {
+            margin-top: 18px;
+            display: inline-block;
+            background: #5865f2;
+            color: white;
+            padding: 11px 18px;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: 0.2s ease;
+        }
+
+        .contact:hover {
+            background: #4752c4;
+            color: white;
+            text-decoration: none;
+            transform: translateY(-1px);
+        }
+
+        footer {
+            text-align: center;
+            color: #6d6f78;
+            padding: 0 20px 45px;
+            font-size: 13px;
+        }
+
+        @media (max-width: 650px) {
+            header {
+                padding-top: 45px;
+            }
+
+            main {
+                padding: 25px;
+                border-radius: 14px;
+            }
+
+            section {
+                padding: 24px 0;
+            }
+        }
+    </style>
 </head>
 
 <body>
 
-<h1>PlumBot Terms of Service</h1>
+<div class="container">
 
-<p><strong>Last updated: September 27, 2026</strong></p>
+    <header>
+        <div class="bot-name">
+            <span class="dot"></span>
+            PlumBot
+        </div>
 
-<p>
-By using PlumBot ("the Bot"), you agree to these Terms of Service.
-</p>
+        <h1>Terms of Service</h1>
 
-<h2>1. Use of PlumBot</h2>
+        <p class="subtitle">
+            These Terms describe the rules and conditions that apply when
+            using PlumBot on Discord.
+        </p>
 
-<p>
-PlumBot provides Discord server management, moderation, utility,
-and community features.
-</p>
+        <span class="updated">Last updated • September 27, 2026</span>
+    </header>
 
-<p>You may use PlumBot only in accordance with:</p>
+    <main>
 
-<ul>
-    <li>These Terms of Service</li>
-    <li>Discord's Terms of Service</li>
-    <li>Discord's Community Guidelines</li>
-    <li>Applicable laws and regulations</li>
-</ul>
+        <section>
+            <h2>1. Use of PlumBot</h2>
 
-<h2>2. Prohibited Use</h2>
+            <p>
+                PlumBot provides Discord server management, moderation,
+                utility, and community features.
+            </p>
 
-<p>You may not use PlumBot to:</p>
+            <p>You may use PlumBot only in accordance with:</p>
 
-<ul>
-    <li>Abuse, harass, threaten, or harm other users</li>
-    <li>Spam users or Discord servers</li>
-    <li>Attempt to exploit or disrupt the Bot</li>
-    <li>Attempt to gain unauthorized access to the Bot or its infrastructure</li>
-    <li>Circumvent restrictions implemented by the Bot</li>
-    <li>Use the Bot for unlawful purposes</li>
-</ul>
+            <ul>
+                <li>These Terms of Service</li>
+                <li>Discord's Terms of Service</li>
+                <li>Discord's Community Guidelines</li>
+                <li>Applicable laws and regulations</li>
+            </ul>
+        </section>
 
-<h2>3. Moderation Features</h2>
+        <section>
+            <h2>2. Prohibited Use</h2>
 
-<p>
-PlumBot may provide moderation tools, including warnings and other
-administrative features.
-</p>
+            <p>You may not use PlumBot to:</p>
 
-<p>
-Discord server administrators and moderators are responsible for how they
-configure and use these features.
-</p>
+            <ul>
+                <li>Abuse, harass, threaten, or harm other users</li>
+                <li>Spam users or Discord servers</li>
+                <li>Attempt to exploit or disrupt the Bot</li>
+                <li>Gain unauthorized access to the Bot or its infrastructure</li>
+                <li>Circumvent restrictions implemented by the Bot</li>
+                <li>Use the Bot for unlawful purposes</li>
+            </ul>
+        </section>
 
-<p>
-The PlumBot administrator is not responsible for moderation decisions made
-independently by moderators or administrators of servers using the Bot.
-</p>
+        <section>
+            <h2>3. Moderation Features</h2>
 
-<h2>4. Availability</h2>
+            <p>
+                PlumBot may provide moderation tools, including warnings and
+                other administrative features.
+            </p>
 
-<p>
-PlumBot is provided on an "as is" and "as available" basis.
-</p>
+            <p>
+                Discord server administrators and moderators are responsible
+                for how they configure and use these features.
+            </p>
 
-<p>
-The Bot may occasionally become unavailable because of maintenance,
-technical issues, Discord outages, updates, or other circumstances.
-</p>
+            <p>
+                The PlumBot administrator is not responsible for moderation
+                decisions made independently by administrators or moderators
+                of servers using the Bot.
+            </p>
+        </section>
 
-<p>
-Features may be modified, added, or removed as PlumBot develops.
-</p>
+        <section>
+            <h2>4. Availability</h2>
 
-<h2>5. Access to PlumBot</h2>
+            <p>
+                PlumBot is provided on an "as is" and "as available" basis.
+            </p>
 
-<p>
-Access to PlumBot may be restricted or terminated when reasonably necessary
-to protect the Bot, its users, its infrastructure, or when these Terms are violated.
-</p>
+            <p>
+                The Bot may occasionally become unavailable due to maintenance,
+                technical issues, Discord outages, updates, or other circumstances.
+            </p>
 
-<h2>6. Limitation of Liability</h2>
+            <p>
+                Features may be modified, added, or removed as PlumBot develops.
+            </p>
+        </section>
 
-<p>
-To the extent permitted by applicable law, the PlumBot administrator is not
-responsible for indirect losses or damages resulting from the use or temporary
-unavailability of the Bot.
-</p>
+        <section>
+            <h2>5. Access to PlumBot</h2>
 
-<p>
-Nothing in these Terms excludes rights or protections that cannot legally
-be excluded.
-</p>
+            <p>
+                Access to PlumBot may be restricted or terminated when reasonably
+                necessary to protect the Bot, its users, its infrastructure,
+                or when these Terms are violated.
+            </p>
+        </section>
 
-<h2>7. Changes to These Terms</h2>
+        <section>
+            <h2>6. Limitation of Liability</h2>
 
-<p>
-These Terms of Service may be updated as PlumBot develops.
-The date displayed at the top of this page indicates the latest revision.
-</p>
+            <p>
+                To the extent permitted by applicable law, the PlumBot
+                administrator is not responsible for indirect losses or damages
+                resulting from the use or temporary unavailability of the Bot.
+            </p>
 
-<h2>8. Contact</h2>
+            <p>
+                Nothing in these Terms excludes rights or protections that
+                cannot legally be excluded.
+            </p>
+        </section>
 
-<p>
-For questions regarding these Terms or PlumBot, contact the administrator
-through the support server:
-</p>
+        <section>
+            <h2>7. Changes to These Terms</h2>
 
-<p>
-<a href="https://discord.gg/5nwRMJxxSk">
-    Join the PlumBot Support Server
-</a>
-</p>
+            <p>
+                These Terms may be updated as PlumBot develops. The date
+                displayed at the top of this page indicates the latest revision.
+            </p>
+        </section>
+
+        <section>
+            <h2>8. Contact</h2>
+
+            <p>
+                For questions regarding these Terms or PlumBot, contact the
+                administrator through the support server.
+            </p>
+
+            <a class="contact"
+               href="https://discord.gg/5nwRMJxxSk"
+               target="_blank">
+                Join Support Server
+            </a>
+        </section>
+
+    </main>
+
+    <footer>
+        © 2026 PlumBot • Terms of Service
+    </footer>
+
+</div>
 
 </body>
 </html>
