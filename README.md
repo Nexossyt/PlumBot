@@ -1,7 +1,7 @@
 # PlumBot
 
-This repository hosts the official legal documents for **PlumBot**, a Discord bot.
-Bot powered by Enzonic: https://enzonic.com/
+- This repository hosts the official legal documents for **PlumBot**, a Discord bot.
+- Bot powered by Enzonic: https://enzonic.com/
 
 ## Legal Documents
 
